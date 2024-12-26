@@ -1,0 +1,113 @@
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: #9AA6B2;
+}
+
+header {
+  padding: 20px;
+  border-bottom: 1px solid #BCCCDC;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+a > img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.create {
+  border: 1px solid #BCCCDC;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.create > p {
+  font-size: 1.5em;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  padding: 5px 15px;
+  background: transparent;
+  border: 1px solid #9AA6B2;
+  border-radius: 10px;
+}
+
+input, textarea:focus {
+  outline: none;
+}
+
+textarea {
+  padding: 5px 10px;
+  height: 100px;
+  resize: none;
+  border-radius: 10px;
+  color: #9AA6B2;
+  border: 1px solid #9AA6B2;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border: 1px solid #9AA6B2;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #9AA6B2;
+  transition: 0.5s;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.notes {
+  padding: 20px;
+  border-top: 1px solid #9AA6B2;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notes > p {
+  font-size: 2em;
+}
+
+.note-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.note {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #9AA6B2;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button-container>button:nth-child(1) {
+  color: rgb(155, 0, 0);
+}
